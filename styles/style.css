@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-.title, h1 p{
-    font-family: 'Tilt Neon', sans-serif;
+.title, h1{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-link {
+    font-family: 'Jost', sans-serif;
+}
+
+.socials-btn{
+    font-family: 'Outfit', sans-serif;
 }
